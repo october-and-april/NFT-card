@@ -1,0 +1,109 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+}
+.box {
+  background-color: hsl(216, 50%, 16%);
+  box-sizing: content-box;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 280px;
+  min-height: 420px;
+  max-width: 310px;
+  max-height: 470px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
+  padding-top: 32px;
+  padding-bottom: 36px;
+  margin-top: 55px;
+  box-shadow: 0 0 55px hsl(218, 58%, 6%);
+}
+.pictrue1 {
+  width: 270px;
+  height: 270px;
+  border-radius: 13px;
+}
+.pictrue1:hover {
+  opacity: 0.7;
+}
+#header {
+  color: white;
+  font-size: 20px;
+  padding-right: 100px;
+  padding-top: 10px;
+}
+#header:hover {
+  color: hsl(178, 100%, 50%);
+}
+#par {
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  font-size: 16px;
+  padding-right: 25px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+#cayen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+#hey {
+  padding-right: 98px;
+  display: flex;
+  font-size: 14px;
+  color: hsl(178, 100%, 50%);
+}
+#ho {
+  display: flex;
+  color: hsl(215, 51%, 70%);
+  font-size: 14px;
+}
+hr {
+  width: 86%;
+  color: hsl(215, 51%, 70%);
+  margin-top: 25px;
+}
+#facepic {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-right: 85px;
+}
+#smth {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+}
+#first {
+  margin-right: 6px;
+}
+#second {
+  margin-right: 6px;
+}
+h3 {
+  color: hsl(215, 51%, 70%);
+  font-size: 12px;
+  font-weight: 300;
+}
+b {
+  color: white;
+}
+b:hover {
+  color: hsl(178, 100%, 50%);
+}
+.attribution {
+  color: white;
+  font-weight: 200;
+  margin-top: 10px;
+}
+.link:hover {
+  color: hsl(215, 51%, 70%);
+}
