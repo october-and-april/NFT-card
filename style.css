@@ -27,7 +27,7 @@ body {
   border-radius: 13px;
 }
 .pictrue1:hover {
-  opacity: 0.7;
+  filter: hue-rotate(340deg);
 }
 #header {
   color: white;
